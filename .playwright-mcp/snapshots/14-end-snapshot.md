@@ -1,0 +1,151 @@
+### Page state
+- Page URL: http://192.168.100.4:8080/
+- Page Title: Thomas Adika QA Mentor Hour
+- Page Snapshot:
+```yaml
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - img "Thomas Adika" [ref=e9]
+            - img [ref=e10]
+          - generic [ref=e12]:
+            - heading "Thomas Adika QA Mentor Hour" [level=1] [ref=e13]
+            - paragraph [ref=e14]: Unlocking QA Careers in Software & Cybersecurity – CyberShujaa 2026
+        - button "Switch to Light Mode" [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+          - generic [ref=e22]: Day Mode
+    - generic [ref=e23]:
+      - complementary [ref=e24]:
+        - navigation "Presentation sections" [ref=e25]:
+          - button "1 Intro" [ref=e26] [cursor=pointer]:
+            - generic [ref=e27]: "1"
+            - img [ref=e28]
+            - generic [ref=e30]: Intro
+          - button "2 Agenda" [ref=e31] [cursor=pointer]:
+            - generic [ref=e32]: "2"
+            - img [ref=e33]
+            - generic [ref=e36]: Agenda
+          - button "3 Fundamentals" [ref=e37] [cursor=pointer]:
+            - generic [ref=e38]: "3"
+            - img [ref=e39]
+            - generic [ref=e41]: Fundamentals
+          - button "4 Practice" [ref=e42] [cursor=pointer]:
+            - generic [ref=e43]: "4"
+            - img [ref=e44]
+            - generic [ref=e47]: Practice
+          - button "5 Reliability" [ref=e48] [cursor=pointer]:
+            - generic [ref=e49]: "5"
+            - img [ref=e50]
+            - generic [ref=e53]: Reliability
+          - button "6 Methods" [ref=e54] [cursor=pointer]:
+            - generic [ref=e55]: "6"
+            - img [ref=e56]
+            - generic [ref=e58]: Methods
+          - button "7 Modern Dev" [ref=e59] [cursor=pointer]:
+            - generic [ref=e60]: "7"
+            - img [ref=e61]
+            - generic [ref=e63]: Modern Dev
+          - button "8 Security" [ref=e64] [cursor=pointer]:
+            - generic [ref=e65]: "8"
+            - img [ref=e66]
+            - generic [ref=e69]: Security
+          - button "9 Careers" [ref=e70] [cursor=pointer]:
+            - generic [ref=e71]: "9"
+            - img [ref=e72]
+            - generic [ref=e76]: Careers
+          - button "10 Tools" [ref=e77] [cursor=pointer]:
+            - generic [ref=e78]: "10"
+            - img [ref=e79]
+            - generic [ref=e81]: Tools
+          - button "11 Practices" [ref=e82] [cursor=pointer]:
+            - generic [ref=e83]: "11"
+            - img [ref=e84]
+            - generic [ref=e87]: Practices
+          - button "12 Takeaways" [ref=e88] [cursor=pointer]:
+            - generic [ref=e89]: "12"
+            - img [ref=e90]
+            - generic [ref=e93]: Takeaways
+          - button "13 Q&A" [ref=e94] [cursor=pointer]:
+            - generic [ref=e95]: "13"
+            - img [ref=e96]
+            - generic [ref=e98]: Q&A
+          - button "14 End" [ref=e99] [cursor=pointer]:
+            - generic [ref=e100]: "14"
+            - img [ref=e101]
+            - generic [ref=e103]: End
+        - generic [ref=e104]:
+          - generic [ref=e105]: Progress
+          - generic [ref=e108]: 14 / 14
+      - main "Presentation content" [ref=e109]:
+        - generic [ref=e110]:
+          - generic [ref=e928]:
+            - generic [ref=e929]:
+              - generic [ref=e930]:
+                - img [ref=e932]
+                - generic [ref=e934]: Thank You
+              - heading "Thank You! 🎉" [level=1] [ref=e935]
+              - paragraph [ref=e936]: Let's Stay Connected
+            - generic [ref=e937]:
+              - generic [ref=e938]:
+                - generic [ref=e939]: Contact
+                - generic [ref=e940]: thomas.adika@serianu.com
+              - generic [ref=e941]:
+                - generic [ref=e942]: LinkedIn
+                - generic [ref=e943]: linkedin.com/in/thomasadika
+              - generic [ref=e944]:
+                - generic [ref=e945]: Event
+                - generic [ref=e946]: CyberShujaa 2026
+            - list [ref=e947]:
+              - listitem [ref=e948]:
+                - img [ref=e949]
+                - generic [ref=e952]: Thank you for joining the QA Mentor Hour!
+              - listitem [ref=e953]:
+                - img [ref=e954]
+                - generic [ref=e957]: Keep learning, keep testing, keep growing
+              - listitem [ref=e958]:
+                - img [ref=e959]
+                - generic [ref=e962]: Reach out anytime - I'm here to help
+              - listitem [ref=e963]:
+                - img [ref=e964]
+                - generic [ref=e967]: Stay tuned for the Playwright demo!
+            - blockquote [ref=e968]:
+              - img [ref=e969]
+              - paragraph [ref=e972]: "\"The only way to do great work is to love what you do.\""
+              - generic [ref=e973]: — Steve Jobs
+            - generic [ref=e974]:
+              - generic [ref=e975]:
+                - generic [ref=e976]:
+                  - img [ref=e977]
+                  - generic [ref=e979]: typescript
+                - button "Copy code" [ref=e980] [cursor=pointer]:
+                  - img [ref=e981]
+                  - text: Copy
+              - code [ref=e986]: "// Want to see Playwright in action? // Here's how to test this presentation! import { test, expect } from '@playwright/test'; test('navigate through presentation', async ({ page }) => { await page.goto('/'); // Click on each section await page.click('[data-section=\"agenda\"]'); await expect(page.locator('h1')).toContainText('Agenda'); // Test the quiz! await page.click('[data-section=\"testing-methodologies\"]'); await page.click('[data-quiz-option=\"1\"]'); console.log('✅ Presentation test passed!'); });"
+          - generic [ref=e157]:
+            - button "← Previous" [ref=e158] [cursor=pointer]:
+              - generic [ref=e159]: ←
+              - generic [ref=e160]: Previous
+            - generic [ref=e161]: Use arrow keys to navigate
+            - button "Next →" [disabled] [ref=e162]:
+              - generic [ref=e163]: Next
+              - generic [ref=e164]: →
+    - contentinfo [ref=e165]:
+      - generic [ref=e166]:
+        - paragraph [ref=e167]: Presented by Thomas Adika | January 22, 2026
+        - generic [ref=e168]:
+          - link "LinkedIn" [ref=e169] [cursor=pointer]:
+            - /url: https://linkedin.com/in/thomasadika
+            - img [ref=e170]
+          - link "Email" [ref=e174] [cursor=pointer]:
+            - /url: mailto:thomas.adika@serianu.com
+            - img [ref=e175]
+          - link "CyberShujaa Event" [ref=e178] [cursor=pointer]:
+            - /url: https://bit.ly/CyberShujaa-JobHuntingandMentorship
+            - img [ref=e179]
+```

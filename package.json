@@ -1,0 +1,30 @@
+{
+  "name": "cybershujaa-qa-22-jan-2024",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "playwright": "^1.57.0",
+    "playwright-core": "^1.57.0",
+    "undici-types": "^7.16.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.10"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burnermkali/Cybershujaa-QA-22-jan-2024.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burnermkali/Cybershujaa-QA-22-jan-2024/issues"
+  },
+  "homepage": "https://github.com/burnermkali/Cybershujaa-QA-22-jan-2024#readme"
+}

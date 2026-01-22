@@ -1,0 +1,150 @@
+### Page state
+- Page URL: http://192.168.100.4:8080/
+- Page Title: Lovable App
+- Page Snapshot:
+```yaml
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - img "Thomas Adika" [ref=e9]
+            - img [ref=e10]
+          - generic [ref=e12]:
+            - heading "Thomas Adika QA Mentor Hour" [level=1] [ref=e13]
+            - paragraph [ref=e14]: Unlocking QA Careers in Software & Cybersecurity – CyberShujaa 2026
+        - button "Switch to Light Mode" [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+          - generic [ref=e22]: Day Mode
+    - generic [ref=e23]:
+      - complementary [ref=e26]:
+        - navigation "Presentation sections" [ref=e27]:
+          - button "1 Intro" [ref=e28] [cursor=pointer]:
+            - generic [ref=e29]: "1"
+            - img [ref=e30]
+            - generic [ref=e32]: Intro
+          - button "2 Agenda" [ref=e33] [cursor=pointer]:
+            - generic [ref=e34]: "2"
+            - img [ref=e35]
+            - generic [ref=e38]: Agenda
+          - button "3 Fundamentals" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]: "3"
+            - img [ref=e41]
+            - generic [ref=e43]: Fundamentals
+          - button "4 Practice" [ref=e44] [cursor=pointer]:
+            - generic [ref=e45]: "4"
+            - img [ref=e46]
+            - generic [ref=e49]: Practice
+          - button "5 Reliability" [ref=e50] [cursor=pointer]:
+            - generic [ref=e51]: "5"
+            - img [ref=e52]
+            - generic [ref=e55]: Reliability
+          - button "6 Methods" [ref=e56] [cursor=pointer]:
+            - generic [ref=e57]: "6"
+            - img [ref=e58]
+            - generic [ref=e60]: Methods
+          - button "7 Modern Dev" [ref=e61] [cursor=pointer]:
+            - generic [ref=e62]: "7"
+            - img [ref=e63]
+            - generic [ref=e65]: Modern Dev
+          - button "8 Security" [ref=e66] [cursor=pointer]:
+            - generic [ref=e67]: "8"
+            - img [ref=e68]
+            - generic [ref=e71]: Security
+          - button "9 Careers" [ref=e72] [cursor=pointer]:
+            - generic [ref=e73]: "9"
+            - img [ref=e74]
+            - generic [ref=e78]: Careers
+          - button "10 Tools" [ref=e79] [cursor=pointer]:
+            - generic [ref=e80]: "10"
+            - img [ref=e81]
+            - generic [ref=e83]: Tools
+          - button "11 Practices" [ref=e84] [cursor=pointer]:
+            - generic [ref=e85]: "11"
+            - img [ref=e86]
+            - generic [ref=e89]: Practices
+          - button "12 Takeaways" [ref=e90] [cursor=pointer]:
+            - generic [ref=e91]: "12"
+            - img [ref=e92]
+            - generic [ref=e95]: Takeaways
+          - button "13 Q&A" [ref=e96] [cursor=pointer]:
+            - generic [ref=e97]: "13"
+            - img [ref=e98]
+            - generic [ref=e100]: Q&A
+          - button "14 End" [ref=e101] [cursor=pointer]:
+            - generic [ref=e102]: "14"
+            - img [ref=e103]
+            - generic [ref=e105]: End
+        - generic [ref=e106]:
+          - generic [ref=e107]: Progress
+          - generic [ref=e110]: 2 / 14
+      - main "Presentation content" [ref=e111]:
+        - generic [ref=e112]:
+          - generic [ref=e184]:
+            - generic [ref=e185]:
+              - generic [ref=e186]:
+                - img [ref=e188]
+                - generic [ref=e191]: Agenda Overview
+              - heading "What We'll Cover Today" [level=1] [ref=e192]
+            - list [ref=e193]:
+              - listitem [ref=e194]:
+                - img [ref=e195]
+                - generic [ref=e198]: Introduction to QA Fundamentals
+              - listitem [ref=e199]:
+                - img [ref=e200]
+                - generic [ref=e203]: The Role of QA in Reliable and Secure Systems
+              - listitem [ref=e204]:
+                - img [ref=e205]
+                - generic [ref=e208]: Key Testing Methodologies
+              - listitem [ref=e209]:
+                - img [ref=e210]
+                - generic [ref=e213]: QA in Modern Software Development and Cybersecurity
+              - listitem [ref=e214]:
+                - img [ref=e215]
+                - generic [ref=e218]: Starting and Growing a Career in QA
+              - listitem [ref=e219]:
+                - img [ref=e220]
+                - generic [ref=e223]: Essential Tools in the Industry
+              - listitem [ref=e224]:
+                - img [ref=e225]
+                - generic [ref=e228]: Best Practices for High-Quality Software
+              - listitem [ref=e229]:
+                - img [ref=e230]
+                - generic [ref=e233]: Q&A and Final Thoughts
+            - generic [ref=e234]:
+              - generic [ref=e235]:
+                - img [ref=e236]
+                - generic [ref=e238]: Pro Tips
+              - list [ref=e239]:
+                - listitem [ref=e240]:
+                  - img [ref=e241]
+                  - text: Feel free to ask questions anytime!
+                - listitem [ref=e243]:
+                  - img [ref=e244]
+                  - text: Interactive demo at the end with Playwright
+          - generic [ref=e159]:
+            - button "← Previous" [ref=e160] [cursor=pointer]:
+              - generic [ref=e161]: ←
+              - generic [ref=e162]: Previous
+            - generic [ref=e163]: Use arrow keys to navigate
+            - button "Next →" [active] [ref=e164] [cursor=pointer]:
+              - generic [ref=e165]: Next
+              - generic [ref=e166]: →
+    - contentinfo [ref=e167]:
+      - generic [ref=e168]:
+        - paragraph [ref=e169]: Presented by Thomas Adika | January 22, 2026
+        - generic [ref=e170]:
+          - link "LinkedIn" [ref=e171] [cursor=pointer]:
+            - /url: https://linkedin.com/in/thomasadika
+            - img [ref=e172]
+          - link "Email" [ref=e176] [cursor=pointer]:
+            - /url: mailto:thomas.adika@serianu.com
+            - img [ref=e177]
+          - link "CyberShujaa Event" [ref=e180] [cursor=pointer]:
+            - /url: https://bit.ly/CyberShujaa-JobHuntingandMentorship
+            - img [ref=e181]
+```

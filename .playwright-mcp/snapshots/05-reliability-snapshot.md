@@ -1,0 +1,152 @@
+### Page state
+- Page URL: http://192.168.100.4:8080/
+- Page Title: Thomas Adika QA Mentor Hour
+- Page Snapshot:
+```yaml
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - img "Thomas Adika" [ref=e9]
+            - img [ref=e10]
+          - generic [ref=e12]:
+            - heading "Thomas Adika QA Mentor Hour" [level=1] [ref=e13]
+            - paragraph [ref=e14]: Unlocking QA Careers in Software & Cybersecurity – CyberShujaa 2026
+        - button "Switch to Light Mode" [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+          - generic [ref=e22]: Day Mode
+    - generic [ref=e23]:
+      - complementary [ref=e24]:
+        - navigation "Presentation sections" [ref=e25]:
+          - button "1 Intro" [ref=e26] [cursor=pointer]:
+            - generic [ref=e27]: "1"
+            - img [ref=e28]
+            - generic [ref=e30]: Intro
+          - button "2 Agenda" [ref=e31] [cursor=pointer]:
+            - generic [ref=e32]: "2"
+            - img [ref=e33]
+            - generic [ref=e36]: Agenda
+          - button "3 Fundamentals" [ref=e37] [cursor=pointer]:
+            - generic [ref=e38]: "3"
+            - img [ref=e39]
+            - generic [ref=e41]: Fundamentals
+          - button "4 Practice" [ref=e42] [cursor=pointer]:
+            - generic [ref=e43]: "4"
+            - img [ref=e44]
+            - generic [ref=e47]: Practice
+          - button "5 Reliability" [ref=e48] [cursor=pointer]:
+            - generic [ref=e49]: "5"
+            - img [ref=e50]
+            - generic [ref=e53]: Reliability
+          - button "6 Methods" [ref=e54] [cursor=pointer]:
+            - generic [ref=e55]: "6"
+            - img [ref=e56]
+            - generic [ref=e58]: Methods
+          - button "7 Modern Dev" [ref=e59] [cursor=pointer]:
+            - generic [ref=e60]: "7"
+            - img [ref=e61]
+            - generic [ref=e63]: Modern Dev
+          - button "8 Security" [ref=e64] [cursor=pointer]:
+            - generic [ref=e65]: "8"
+            - img [ref=e66]
+            - generic [ref=e69]: Security
+          - button "9 Careers" [ref=e70] [cursor=pointer]:
+            - generic [ref=e71]: "9"
+            - img [ref=e72]
+            - generic [ref=e76]: Careers
+          - button "10 Tools" [ref=e77] [cursor=pointer]:
+            - generic [ref=e78]: "10"
+            - img [ref=e79]
+            - generic [ref=e81]: Tools
+          - button "11 Practices" [ref=e82] [cursor=pointer]:
+            - generic [ref=e83]: "11"
+            - img [ref=e84]
+            - generic [ref=e87]: Practices
+          - button "12 Takeaways" [ref=e88] [cursor=pointer]:
+            - generic [ref=e89]: "12"
+            - img [ref=e90]
+            - generic [ref=e93]: Takeaways
+          - button "13 Q&A" [ref=e94] [cursor=pointer]:
+            - generic [ref=e95]: "13"
+            - img [ref=e96]
+            - generic [ref=e98]: Q&A
+          - button "14 End" [ref=e99] [cursor=pointer]:
+            - generic [ref=e100]: "14"
+            - img [ref=e101]
+            - generic [ref=e103]: End
+        - generic [ref=e104]:
+          - generic [ref=e105]: Progress
+          - generic [ref=e108]: 5 / 14
+      - main "Presentation content" [ref=e109]:
+        - generic [ref=e110]:
+          - generic [ref=e362]:
+            - generic [ref=e363]:
+              - generic [ref=e364]:
+                - img [ref=e366]
+                - generic [ref=e369]: Role in Reliable Systems
+              - heading "Building Reliable & Secure Systems" [level=1] [ref=e370]
+              - paragraph [ref=e371]: Why QA Matters More Than Ever
+            - generic [ref=e372]:
+              - generic [ref=e373]:
+                - generic [ref=e374]: Impact
+                - generic [ref=e375]: Prevent costly production issues
+              - generic [ref=e376]:
+                - generic [ref=e377]: Security
+                - generic [ref=e378]: First line of defense
+              - generic [ref=e379]:
+                - generic [ref=e380]: Trust
+                - generic [ref=e381]: Build user confidence
+            - list [ref=e382]:
+              - listitem [ref=e383]:
+                - img [ref=e384]
+                - generic [ref=e387]: QA ensures software meets user expectations and standards
+              - listitem [ref=e388]:
+                - img [ref=e389]
+                - generic [ref=e392]: Security testing identifies vulnerabilities before attackers do
+              - listitem [ref=e393]:
+                - img [ref=e394]
+                - generic [ref=e397]: Performance testing ensures systems handle real-world loads
+              - listitem [ref=e398]:
+                - img [ref=e399]
+                - generic [ref=e402]: Accessibility testing makes software usable by everyone
+              - listitem [ref=e403]:
+                - img [ref=e404]
+                - generic [ref=e407]: Compliance testing meets regulatory requirements
+            - generic [ref=e408]:
+              - generic [ref=e409]:
+                - img [ref=e410]
+                - generic [ref=e412]: Pro Tips
+              - list [ref=e413]:
+                - listitem [ref=e414]:
+                  - img [ref=e415]
+                  - text: "Shift-left: Start testing early in the development cycle"
+                - listitem [ref=e417]:
+                  - img [ref=e418]
+                  - text: Think like an attacker when doing security testing
+          - generic [ref=e157]:
+            - button "← Previous" [ref=e158] [cursor=pointer]:
+              - generic [ref=e159]: ←
+              - generic [ref=e160]: Previous
+            - generic [ref=e161]: Use arrow keys to navigate
+            - button "Next →" [active] [ref=e162] [cursor=pointer]:
+              - generic [ref=e163]: Next
+              - generic [ref=e164]: →
+    - contentinfo [ref=e165]:
+      - generic [ref=e166]:
+        - paragraph [ref=e167]: Presented by Thomas Adika | January 22, 2026
+        - generic [ref=e168]:
+          - link "LinkedIn" [ref=e169] [cursor=pointer]:
+            - /url: https://linkedin.com/in/thomasadika
+            - img [ref=e170]
+          - link "Email" [ref=e174] [cursor=pointer]:
+            - /url: mailto:thomas.adika@serianu.com
+            - img [ref=e175]
+          - link "CyberShujaa Event" [ref=e178] [cursor=pointer]:
+            - /url: https://bit.ly/CyberShujaa-JobHuntingandMentorship
+            - img [ref=e179]
+```

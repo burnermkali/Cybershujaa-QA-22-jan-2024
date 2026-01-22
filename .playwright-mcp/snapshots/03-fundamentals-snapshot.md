@@ -1,0 +1,152 @@
+### Page state
+- Page URL: http://192.168.100.4:8080/
+- Page Title: Thomas Adika QA Mentor Hour
+- Page Snapshot:
+```yaml
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - img "Thomas Adika" [ref=e9]
+            - img [ref=e10]
+          - generic [ref=e12]:
+            - heading "Thomas Adika QA Mentor Hour" [level=1] [ref=e13]
+            - paragraph [ref=e14]: Unlocking QA Careers in Software & Cybersecurity – CyberShujaa 2026
+        - button "Switch to Light Mode" [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+          - generic [ref=e22]: Day Mode
+    - generic [ref=e23]:
+      - complementary [ref=e24]:
+        - navigation "Presentation sections" [ref=e25]:
+          - button "1 Intro" [ref=e26] [cursor=pointer]:
+            - generic [ref=e27]: "1"
+            - img [ref=e28]
+            - generic [ref=e30]: Intro
+          - button "2 Agenda" [ref=e31] [cursor=pointer]:
+            - generic [ref=e32]: "2"
+            - img [ref=e33]
+            - generic [ref=e36]: Agenda
+          - button "3 Fundamentals" [ref=e37] [cursor=pointer]:
+            - generic [ref=e38]: "3"
+            - img [ref=e39]
+            - generic [ref=e41]: Fundamentals
+          - button "4 Practice" [ref=e42] [cursor=pointer]:
+            - generic [ref=e43]: "4"
+            - img [ref=e44]
+            - generic [ref=e47]: Practice
+          - button "5 Reliability" [ref=e48] [cursor=pointer]:
+            - generic [ref=e49]: "5"
+            - img [ref=e50]
+            - generic [ref=e53]: Reliability
+          - button "6 Methods" [ref=e54] [cursor=pointer]:
+            - generic [ref=e55]: "6"
+            - img [ref=e56]
+            - generic [ref=e58]: Methods
+          - button "7 Modern Dev" [ref=e59] [cursor=pointer]:
+            - generic [ref=e60]: "7"
+            - img [ref=e61]
+            - generic [ref=e63]: Modern Dev
+          - button "8 Security" [ref=e64] [cursor=pointer]:
+            - generic [ref=e65]: "8"
+            - img [ref=e66]
+            - generic [ref=e69]: Security
+          - button "9 Careers" [ref=e70] [cursor=pointer]:
+            - generic [ref=e71]: "9"
+            - img [ref=e72]
+            - generic [ref=e76]: Careers
+          - button "10 Tools" [ref=e77] [cursor=pointer]:
+            - generic [ref=e78]: "10"
+            - img [ref=e79]
+            - generic [ref=e81]: Tools
+          - button "11 Practices" [ref=e82] [cursor=pointer]:
+            - generic [ref=e83]: "11"
+            - img [ref=e84]
+            - generic [ref=e87]: Practices
+          - button "12 Takeaways" [ref=e88] [cursor=pointer]:
+            - generic [ref=e89]: "12"
+            - img [ref=e90]
+            - generic [ref=e93]: Takeaways
+          - button "13 Q&A" [ref=e94] [cursor=pointer]:
+            - generic [ref=e95]: "13"
+            - img [ref=e96]
+            - generic [ref=e98]: Q&A
+          - button "14 End" [ref=e99] [cursor=pointer]:
+            - generic [ref=e100]: "14"
+            - img [ref=e101]
+            - generic [ref=e103]: End
+        - generic [ref=e104]:
+          - generic [ref=e105]: Progress
+          - generic [ref=e108]: 3 / 14
+      - main "Presentation content" [ref=e109]:
+        - generic [ref=e110]:
+          - generic [ref=e244]:
+            - generic [ref=e245]:
+              - generic [ref=e246]:
+                - img [ref=e248]
+                - generic [ref=e250]: QA Fundamentals
+              - 'heading "QA Fundamentals: What Is It?" [level=1] [ref=e251]'
+              - paragraph [ref=e252]: Understanding the Core Principles
+            - generic [ref=e253]:
+              - generic [ref=e254]:
+                - generic [ref=e255]: Core Focus
+                - generic [ref=e256]: Prevention over Detection
+              - generic [ref=e257]:
+                - generic [ref=e258]: Mindset
+                - generic [ref=e259]: Continuous Improvement
+              - generic [ref=e260]:
+                - generic [ref=e261]: Goal
+                - generic [ref=e262]: User Satisfaction
+            - list [ref=e263]:
+              - listitem [ref=e264]:
+                - img [ref=e265]
+                - generic [ref=e268]: QA = systematic process to ensure software meets quality standards
+              - listitem [ref=e269]:
+                - img [ref=e270]
+                - generic [ref=e273]: "Key Principles: Prevention > Detection, Continuous Improvement, User-Centric"
+              - listitem [ref=e274]:
+                - img [ref=e275]
+                - generic [ref=e278]: QA (process-oriented) vs QC (inspection-oriented)
+              - listitem [ref=e279]:
+                - img [ref=e280]
+                - generic [ref=e283]: Quality Assurance focuses on preventing defects
+              - listitem [ref=e284]:
+                - img [ref=e285]
+                - generic [ref=e288]: Quality Control focuses on finding defects
+              - listitem [ref=e289]:
+                - img [ref=e290]
+                - generic [ref=e293]: Both are essential for delivering high-quality software
+            - generic [ref=e294]:
+              - generic [ref=e295]:
+                - img [ref=e296]
+                - generic [ref=e298]: Pro Tips
+              - list [ref=e299]:
+                - listitem [ref=e300]:
+                  - img [ref=e301]
+                  - text: Think of QA as building quality INTO the process, not inspecting it at the end
+          - generic [ref=e157]:
+            - button "← Previous" [ref=e158] [cursor=pointer]:
+              - generic [ref=e159]: ←
+              - generic [ref=e160]: Previous
+            - generic [ref=e161]: Use arrow keys to navigate
+            - button "Next →" [active] [ref=e162] [cursor=pointer]:
+              - generic [ref=e163]: Next
+              - generic [ref=e164]: →
+    - contentinfo [ref=e165]:
+      - generic [ref=e166]:
+        - paragraph [ref=e167]: Presented by Thomas Adika | January 22, 2026
+        - generic [ref=e168]:
+          - link "LinkedIn" [ref=e169] [cursor=pointer]:
+            - /url: https://linkedin.com/in/thomasadika
+            - img [ref=e170]
+          - link "Email" [ref=e174] [cursor=pointer]:
+            - /url: mailto:thomas.adika@serianu.com
+            - img [ref=e175]
+          - link "CyberShujaa Event" [ref=e178] [cursor=pointer]:
+            - /url: https://bit.ly/CyberShujaa-JobHuntingandMentorship
+            - img [ref=e179]
+```

@@ -1,0 +1,176 @@
+### Page state
+- Page URL: http://192.168.100.4:8080/
+- Page Title: Thomas Adika QA Mentor Hour
+- Page Snapshot:
+```yaml
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - img "Thomas Adika" [ref=e9]
+            - img [ref=e10]
+          - generic [ref=e12]:
+            - heading "Thomas Adika QA Mentor Hour" [level=1] [ref=e13]
+            - paragraph [ref=e14]: Unlocking QA Careers in Software & Cybersecurity – CyberShujaa 2026
+        - button "Switch to Light Mode" [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+          - generic [ref=e22]: Day Mode
+    - generic [ref=e23]:
+      - complementary [ref=e24]:
+        - navigation "Presentation sections" [ref=e25]:
+          - button "1 Intro" [ref=e26] [cursor=pointer]:
+            - generic [ref=e27]: "1"
+            - img [ref=e28]
+            - generic [ref=e30]: Intro
+          - button "2 Agenda" [ref=e31] [cursor=pointer]:
+            - generic [ref=e32]: "2"
+            - img [ref=e33]
+            - generic [ref=e36]: Agenda
+          - button "3 Fundamentals" [ref=e37] [cursor=pointer]:
+            - generic [ref=e38]: "3"
+            - img [ref=e39]
+            - generic [ref=e41]: Fundamentals
+          - button "4 Practice" [ref=e42] [cursor=pointer]:
+            - generic [ref=e43]: "4"
+            - img [ref=e44]
+            - generic [ref=e47]: Practice
+          - button "5 Reliability" [ref=e48] [cursor=pointer]:
+            - generic [ref=e49]: "5"
+            - img [ref=e50]
+            - generic [ref=e53]: Reliability
+          - button "6 Methods" [ref=e54] [cursor=pointer]:
+            - generic [ref=e55]: "6"
+            - img [ref=e56]
+            - generic [ref=e58]: Methods
+          - button "7 Modern Dev" [ref=e59] [cursor=pointer]:
+            - generic [ref=e60]: "7"
+            - img [ref=e61]
+            - generic [ref=e63]: Modern Dev
+          - button "8 Security" [ref=e64] [cursor=pointer]:
+            - generic [ref=e65]: "8"
+            - img [ref=e66]
+            - generic [ref=e69]: Security
+          - button "9 Careers" [ref=e70] [cursor=pointer]:
+            - generic [ref=e71]: "9"
+            - img [ref=e72]
+            - generic [ref=e76]: Careers
+          - button "10 Tools" [ref=e77] [cursor=pointer]:
+            - generic [ref=e78]: "10"
+            - img [ref=e79]
+            - generic [ref=e81]: Tools
+          - button "11 Practices" [ref=e82] [cursor=pointer]:
+            - generic [ref=e83]: "11"
+            - img [ref=e84]
+            - generic [ref=e87]: Practices
+          - button "12 Takeaways" [ref=e88] [cursor=pointer]:
+            - generic [ref=e89]: "12"
+            - img [ref=e90]
+            - generic [ref=e93]: Takeaways
+          - button "13 Q&A" [ref=e94] [cursor=pointer]:
+            - generic [ref=e95]: "13"
+            - img [ref=e96]
+            - generic [ref=e98]: Q&A
+          - button "14 End" [ref=e99] [cursor=pointer]:
+            - generic [ref=e100]: "14"
+            - img [ref=e101]
+            - generic [ref=e103]: End
+        - generic [ref=e104]:
+          - generic [ref=e105]: Progress
+          - generic [ref=e108]: 10 / 14
+      - main "Presentation content" [ref=e109]:
+        - generic [ref=e110]:
+          - generic [ref=e655]:
+            - generic [ref=e656]:
+              - generic [ref=e657]:
+                - img [ref=e659]
+                - generic [ref=e661]: Essential Tools
+              - heading "Essential Tools in QA" [level=1] [ref=e662]
+              - paragraph [ref=e663]: Your QA Toolkit
+            - generic [ref=e664]:
+              - generic [ref=e665]:
+                - img [ref=e666]
+                - generic [ref=e668]: Pro Tips
+              - list [ref=e669]:
+                - listitem [ref=e670]:
+                  - img [ref=e671]
+                  - text: Master one tool in each category before expanding
+                - listitem [ref=e673]:
+                  - img [ref=e674]
+                  - text: Playwright is my personal favorite for web automation!
+            - generic [ref=e676]:
+              - generic [ref=e677]:
+                - img [ref=e678]
+                - generic [ref=e680]: QA Toolkit
+              - generic [ref=e681]:
+                - generic [ref=e683]:
+                  - img [ref=e685]
+                  - generic [ref=e688]:
+                    - heading "Playwright" [level=4] [ref=e689]
+                    - paragraph [ref=e690]: Automation
+                    - paragraph [ref=e691]: Modern E2E testing for web apps
+                - generic [ref=e693]:
+                  - img [ref=e695]
+                  - generic [ref=e698]:
+                    - heading "Selenium" [level=4] [ref=e699]
+                    - paragraph [ref=e700]: Automation
+                    - paragraph [ref=e701]: Cross-browser automation framework
+                - generic [ref=e703]:
+                  - img [ref=e705]
+                  - generic [ref=e710]:
+                    - heading "Jira" [level=4] [ref=e711]
+                    - paragraph [ref=e712]: Management
+                    - paragraph [ref=e713]: Issue tracking and project management
+                - generic [ref=e715]:
+                  - img [ref=e717]
+                  - generic [ref=e726]:
+                    - heading "Postman" [level=4] [ref=e727]
+                    - paragraph [ref=e728]: API Testing
+                    - paragraph [ref=e729]: API development and testing
+                - generic [ref=e731]:
+                  - img [ref=e733]
+                  - generic [ref=e737]:
+                    - heading "Git" [level=4] [ref=e738]
+                    - paragraph [ref=e739]: Version Control
+                    - paragraph [ref=e740]: Code versioning and collaboration
+                - generic [ref=e742]:
+                  - img [ref=e744]
+                  - generic [ref=e747]:
+                    - heading "Jenkins/GitHub Actions" [level=4] [ref=e748]
+                    - paragraph [ref=e749]: CI/CD
+                    - paragraph [ref=e750]: Continuous integration pipelines
+            - generic [ref=e751]:
+              - generic [ref=e752]:
+                - generic [ref=e753]:
+                  - img [ref=e754]
+                  - generic [ref=e756]: typescript
+                - button "Copy code" [ref=e757] [cursor=pointer]:
+                  - img [ref=e758]
+                  - text: Copy
+              - code [ref=e763]: "// Playwright Example import { test, expect } from '@playwright/test'; test('homepage has title', async ({ page }) => { await page.goto('https://example.com'); await expect(page).toHaveTitle(/Example/); });"
+          - generic [ref=e157]:
+            - button "← Previous" [ref=e158] [cursor=pointer]:
+              - generic [ref=e159]: ←
+              - generic [ref=e160]: Previous
+            - generic [ref=e161]: Use arrow keys to navigate
+            - button "Next →" [active] [ref=e162] [cursor=pointer]:
+              - generic [ref=e163]: Next
+              - generic [ref=e164]: →
+    - contentinfo [ref=e165]:
+      - generic [ref=e166]:
+        - paragraph [ref=e167]: Presented by Thomas Adika | January 22, 2026
+        - generic [ref=e168]:
+          - link "LinkedIn" [ref=e169] [cursor=pointer]:
+            - /url: https://linkedin.com/in/thomasadika
+            - img [ref=e170]
+          - link "Email" [ref=e174] [cursor=pointer]:
+            - /url: mailto:thomas.adika@serianu.com
+            - img [ref=e175]
+          - link "CyberShujaa Event" [ref=e178] [cursor=pointer]:
+            - /url: https://bit.ly/CyberShujaa-JobHuntingandMentorship
+            - img [ref=e179]
+```

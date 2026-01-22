@@ -1,0 +1,142 @@
+### Page state
+- Page URL: http://192.168.100.4:8080/
+- Page Title: Lovable App
+- Page Snapshot:
+```yaml
+- generic [ref=e2]:
+  - region "Notifications (F8)":
+    - list
+  - region "Notifications alt+T"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - img "Thomas Adika" [ref=e9]
+            - img [ref=e10]
+          - generic [ref=e12]:
+            - heading "Thomas Adika QA Mentor Hour" [level=1] [ref=e13]
+            - paragraph [ref=e14]: Unlocking QA Careers in Software & Cybersecurity – CyberShujaa 2026
+        - button "Switch to Light Mode" [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+          - generic [ref=e22]: Day Mode
+    - generic [ref=e23]:
+      - complementary [ref=e26]:
+        - navigation "Presentation sections" [ref=e27]:
+          - button "1 Intro" [ref=e28] [cursor=pointer]:
+            - generic [ref=e29]: "1"
+            - img [ref=e30]
+            - generic [ref=e32]: Intro
+          - button "2 Agenda" [ref=e33] [cursor=pointer]:
+            - generic [ref=e34]: "2"
+            - img [ref=e35]
+            - generic [ref=e38]: Agenda
+          - button "3 Fundamentals" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]: "3"
+            - img [ref=e41]
+            - generic [ref=e43]: Fundamentals
+          - button "4 Practice" [ref=e44] [cursor=pointer]:
+            - generic [ref=e45]: "4"
+            - img [ref=e46]
+            - generic [ref=e49]: Practice
+          - button "5 Reliability" [ref=e50] [cursor=pointer]:
+            - generic [ref=e51]: "5"
+            - img [ref=e52]
+            - generic [ref=e55]: Reliability
+          - button "6 Methods" [ref=e56] [cursor=pointer]:
+            - generic [ref=e57]: "6"
+            - img [ref=e58]
+            - generic [ref=e60]: Methods
+          - button "7 Modern Dev" [ref=e61] [cursor=pointer]:
+            - generic [ref=e62]: "7"
+            - img [ref=e63]
+            - generic [ref=e65]: Modern Dev
+          - button "8 Security" [ref=e66] [cursor=pointer]:
+            - generic [ref=e67]: "8"
+            - img [ref=e68]
+            - generic [ref=e71]: Security
+          - button "9 Careers" [ref=e72] [cursor=pointer]:
+            - generic [ref=e73]: "9"
+            - img [ref=e74]
+            - generic [ref=e78]: Careers
+          - button "10 Tools" [ref=e79] [cursor=pointer]:
+            - generic [ref=e80]: "10"
+            - img [ref=e81]
+            - generic [ref=e83]: Tools
+          - button "11 Practices" [ref=e84] [cursor=pointer]:
+            - generic [ref=e85]: "11"
+            - img [ref=e86]
+            - generic [ref=e89]: Practices
+          - button "12 Takeaways" [ref=e90] [cursor=pointer]:
+            - generic [ref=e91]: "12"
+            - img [ref=e92]
+            - generic [ref=e95]: Takeaways
+          - button "13 Q&A" [ref=e96] [cursor=pointer]:
+            - generic [ref=e97]: "13"
+            - img [ref=e98]
+            - generic [ref=e100]: Q&A
+          - button "14 End" [ref=e101] [cursor=pointer]:
+            - generic [ref=e102]: "14"
+            - img [ref=e103]
+            - generic [ref=e105]: End
+        - generic [ref=e106]:
+          - generic [ref=e107]: Progress
+          - generic [ref=e110]: 1 / 14
+      - main "Presentation content" [ref=e111]:
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - generic [ref=e115]:
+                - img [ref=e117]
+                - generic [ref=e119]: Introduction
+              - heading "Quality Assurance with Thomas Adika 🛡️" [level=1] [ref=e120]
+              - paragraph [ref=e121]: Fundamentals, Real-World Practice, and Career Insights in QA
+            - generic [ref=e122]:
+              - generic [ref=e123]:
+                - generic [ref=e124]: Date
+                - generic [ref=e125]: Thursday, 22nd January 2026
+              - generic [ref=e126]:
+                - generic [ref=e127]: Time
+                - generic [ref=e128]: 7:00 PM - 8:00 PM EAT
+              - generic [ref=e129]:
+                - generic [ref=e130]: Venue
+                - generic [ref=e131]: Online - CyberShujaa
+            - list [ref=e132]:
+              - listitem [ref=e133]:
+                - img [ref=e134]
+                - generic [ref=e137]: QA Engineer at Serianu
+              - listitem [ref=e138]:
+                - img [ref=e139]
+                - generic [ref=e142]: Passionate about building reliable and secure systems
+              - listitem [ref=e143]:
+                - img [ref=e144]
+                - generic [ref=e147]: Experienced in automated testing, particularly with Playwright
+              - listitem [ref=e148]:
+                - img [ref=e149]
+                - generic [ref=e152]: Dedicated to helping others start and grow their QA careers
+            - blockquote [ref=e153]:
+              - img [ref=e154]
+              - paragraph [ref=e157]: "\"Quality is not an act, it is a habit.\""
+              - generic [ref=e158]: — Aristotle
+          - generic [ref=e159]:
+            - button "← Previous" [disabled] [ref=e160]:
+              - generic [ref=e161]: ←
+              - generic [ref=e162]: Previous
+            - generic [ref=e163]: Use arrow keys to navigate
+            - button "Next →" [ref=e164] [cursor=pointer]:
+              - generic [ref=e165]: Next
+              - generic [ref=e166]: →
+    - contentinfo [ref=e167]:
+      - generic [ref=e168]:
+        - paragraph [ref=e169]: Presented by Thomas Adika | January 22, 2026
+        - generic [ref=e170]:
+          - link "LinkedIn" [ref=e171] [cursor=pointer]:
+            - /url: https://linkedin.com/in/thomasadika
+            - img [ref=e172]
+          - link "Email" [ref=e176] [cursor=pointer]:
+            - /url: mailto:thomas.adika@serianu.com
+            - img [ref=e177]
+          - link "CyberShujaa Event" [ref=e180] [cursor=pointer]:
+            - /url: https://bit.ly/CyberShujaa-JobHuntingandMentorship
+            - img [ref=e181]
+```
