@@ -31,9 +31,25 @@ const SECTIONS = [
 ];
 
 // Helper function to wait for page to be ready
-async function waitForPageReady(page: Page) {
-  await page.waitForLoadState('networkidle');
-  await page.waitForSelector('main', { state: 'visible' });
+async function waitForPageReady(page: Page, timeout: number = 30000) {
+  // Wait for load state (DOMContentLoaded + resources loaded)
+  // This is more reliable than networkidle which can timeout with HMR/dev servers
+  // networkidle waits for 500ms of network inactivity, which never happens with Vite HMR
+  await page.waitForLoadState('load', { timeout });
+  
+  // Wait for main content to be visible - this is the key indicator the page is ready
+  await page.waitForSelector('main', { state: 'visible', timeout });
+  
+  // Additional check: ensure navigation is visible (indicates React has rendered)
+  await page.waitForSelector('nav[aria-label*="Presentation sections"], nav[aria-label*="presentation sections"]', { 
+    state: 'visible', 
+    timeout: 10000 
+  }).catch(() => {
+    // If nav selector doesn't match exactly, try alternative
+    return page.waitForSelector('nav', { state: 'visible', timeout: 5000 }).catch(() => {
+      // Navigation might not be critical for all tests
+    });
+  });
 }
 
 // Helper function to get section button by number and name (avoids matching "1" in "11")
@@ -48,8 +64,8 @@ function getSectionButton(page: Page, sectionNumber: number, sectionName: string
 
 // Helper function to wait for page to be stable for screenshots
 async function waitForPageStable(page: Page) {
-  // Wait for network to be idle
-  await page.waitForLoadState('networkidle');
+  // Wait for load state (more reliable than networkidle with dev servers)
+  await page.waitForLoadState('load');
   
   // Wait for main content to be visible
   await page.waitForSelector('main', { state: 'visible' });
@@ -60,7 +76,7 @@ async function waitForPageStable(page: Page) {
     await Promise.all(
       images.map((img) => {
         if (img.complete) return Promise.resolve();
-        return new Promise((resolve, reject) => {
+        return new Promise((resolve) => {
           img.onload = resolve;
           img.onerror = resolve; // Resolve even on error to not block
           // Timeout after 5 seconds

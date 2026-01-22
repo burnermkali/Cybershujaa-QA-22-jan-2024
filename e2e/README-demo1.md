@@ -268,7 +268,8 @@ These tests can be integrated into CI/CD pipelines:
 
 ### Tests failing due to timing?
 - Increase `waitForTimeout` values
-- Use `waitForLoadState('networkidle')` for page loads
+- Use `waitForLoadState('load')` for page loads (NOT 'networkidle' - it times out with dev servers/HMR)
+- Wait for specific selectors that indicate page readiness (e.g., `main`, `nav`)
 
 ### Visual regression tests failing?
 - Review the diff in `test-results/`
@@ -276,8 +277,10 @@ These tests can be integrated into CI/CD pipelines:
 
 ### Flaky tests?
 - Ensure proper waits are in place
-- Use `waitForLoadState()` instead of fixed timeouts
+- Use `waitForLoadState('load')` instead of `networkidle` (which can timeout with Vite HMR)
+- Wait for specific elements rather than network idle state
 - Check for race conditions
+- Use `waitForSelector()` with appropriate timeouts
 
 ---
 
